@@ -35,7 +35,7 @@ namespace WTStudio
 
         int TimeOutMs = 100;
 
-        public TelnetConnection(string HostnameOrAddress, int Port)
+        public TelnetConnection(string HostnameOrAddress, int Port = 23)
         {
             tcpSocket = new TcpClient(HostnameOrAddress, Port);
 
